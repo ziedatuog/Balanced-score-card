@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 40vw;
+    padding: 1rem;
+}
+.comm-detail {
+    width: 80%;
+    font-size: 1.3rem;
+    
+}
+.comm-detail div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.comm-detail div span{
+    justify-self: start;
+}

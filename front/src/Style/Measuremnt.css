@@ -1,0 +1,65 @@
+.main-measurement{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+header {
+    font-size: 1.5rem;
+}
+.measure-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+}
+.upper-upper{
+margin-left: 3rem;
+display: grid;
+grid-template-columns: 13% 87%;
+border-bottom: 1px solid rgb(207, 196, 196);
+}
+.measure-upper span{
+    justify-self: start;
+}
+.upper-bottom {
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: 13% 50% 10% 10% ;
+    border-bottom: 1px solid rgb(207, 196, 196);
+}
+.upper-bottom span{
+    justify-self: start;
+}
+.measure-body {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 0.7rem;
+    border: 1px solid rgb(207, 196, 196);
+    padding: 0.7rem 0.7rem;
+}
+.body-header{
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns:4% 36% 7% 7% 7% 7% 7% 8% 10%;
+    border-bottom: 1px solid rgb(207, 196, 196);
+}
+.body-header span {
+    justify-self: start;
+}
+.body-main{
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns:4% 36% 8% 8% 7% 7% 7% 8% 10%;
+    border-bottom: 1px solid rgb(207, 196, 196);
+}
+.body-main span {
+    justify-self: start;
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+.main-arch {
+  width: 12rem;
+  background-color: white;  
+  display:flex ;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.1rem;
+  z-index: 15;
+  font-size: 1.2rem;
+
+}
+.main-arch span {
+ width: 100%;
+ border-bottom: 1px solid black;
+ border-top: 1px solid black;
+ padding: 0.3rem;
+}

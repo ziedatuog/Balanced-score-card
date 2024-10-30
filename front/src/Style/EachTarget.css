@@ -1,0 +1,31 @@
+.main-body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+}
+.all-target {
+    border: 1px solid rgb(207, 196, 196);
+    display: flex;
+    flex-direction: column;
+}
+.target-body{
+    font-size: 1.4rem;
+    display:grid;
+    grid-template-columns: 6% 70% 24%;
+    padding-left: 3rem;
+    width: 100%;
+    border-bottom: 1px solid rgb(207, 196, 196);
+}
+.roll-number {
+ justify-self: start;
+}
+.each-title{
+ justify-self: start;
+ 
+}
+.sub-targets{
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+

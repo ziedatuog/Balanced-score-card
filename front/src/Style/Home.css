@@ -1,0 +1,44 @@
+/* for the main css */
+.home-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.own {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5rem;
+   
+}
+.title {
+    font-size: 1.7rem;
+}
+/* for hr browse */
+.hr-browse {
+    margin: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+.main-target {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    padding:1rem 2rem;
+    /* padding-right: 2rem; */
+}
+.target-title{
+        font-size: 1.5rem;
+}
+
+/* for my own button */
+.my{
+    width: 10rem;
+    height: 2rem;
+}
+/*  */
